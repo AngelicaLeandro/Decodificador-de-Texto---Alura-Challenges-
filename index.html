@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/base.css" type="text/css">
+        <link rel="stylesheet" href="css/cabecalho.css" type="text/css">
+        <link rel="stylesheet" href="css/conteudo.css" type="text/css">
+        <link rel="stylesheet" href="css/rodape.css" type="text/css">
+        <link rel="stylesheet" href="css/inputs.css" type="text/css">
+        <title>Decodificador</title>
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <img class="cabecalho__logo" src="logo.jpg" width="100px" heigth="100px">
+                <h3 class="cabecalho__titulo">criptografador de texto</h3>
+            </div>      
+        </header>    
+        <main class="conteudo">
+            <div class="criptografador">
+                <section class="decodificador caixa">
+                    <ul id="mensagens-erro"> </ul>
+                    <label for = "texto">Digite seu texto</label>
+                    <input class="input-padrao" placeholder="Insira sua palavra" id="texto" name="texto" data-input-entrada >
+                        <div class="caixa-botao">
+                            <input type="button" value="Criptografar" name="btn-criptografia" class="btn" id="btn-criptografia" data-btn-criptografar>
+                            <input type="button" value="Descriptografar" name="btn-descriptografia" class="btn" id="btn-descriptografia" data-btn-descriptografar> 
+                        </div>           
+                </section>
+                <section class="resultado caixa">
+                    <label for = "resultado">Resultado</label>
+                    <input class="input-padrao" id="resultado" name="resultado"  data-input-saida>
+                    <div class="caixa-botao">
+                    <input type="button" value="Copiar" name="btn-copiar" class="btn" id="btn-copiar" data-btn-copiar>
+                </div>
+                </section>
+            </div>
+        </main>
+        <footer class="rodape">
+    
+            <ul class="rodape__lista">
+                <li class="rodape__lista"><a href="#" class="rodape__link"><i class="fa fa-github icone"></i></i></a></li>
+                <li class="rodape__lista"><a href="#" class="rodape__link"><i class="fa fa-linkedin-square icone"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="./javascript/criptografar.js"></script>
+        <script src="./javascript/descriptografar.js"></script>
+        <script src="./javascript/copiar.js"></script>
+    </body>
+</html>

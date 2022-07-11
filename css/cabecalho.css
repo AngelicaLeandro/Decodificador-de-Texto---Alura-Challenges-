@@ -1,0 +1,25 @@
+
+.cabecalho{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 4rem;
+  
+}
+.cabecalho__titulo{ 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+  
+}
+@media screen and (max-width:768px){
+    .cabecalho{
+        flex-direction: column;
+       
+    }
+    .cabecalho__titulo{
+        font-size: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,21 @@
+.rodape{
+    display: grid;
+    grid-area: rodape;
+    background:#202020;
+    border-top: solid 2px rgb(44, 44, 44);
+}
+.rodape__lista{
+    display:flex;
+    justify-content: center;
+    padding: .2rem .2rem;
+    
+}
+.rodape__link{
+    font-size: 25px;
+    color:white;
+    transition: all 1s;
+}
+.rodape__link:hover{
+    color:rgb(172, 128, 9);
+    transform: scale(1.2);
+}

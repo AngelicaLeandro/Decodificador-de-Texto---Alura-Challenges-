@@ -1,0 +1,45 @@
+
+.input-padrao{
+    margin:.2rem 0;
+    padding:.8rem 0;
+    border-radius: 6px;
+    border: 1px solid #636266;
+    box-sizing: border-box;
+    background: #48474c;
+    color:azure;
+    font-size: 16px;
+}
+.caixa-botao{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+width:49%;
+background: #f5b223;
+margin: .2rem 4px;
+padding:  .6rem;
+cursor: pointer;
+border-radius: 5px;
+border:none;
+box-sizing: border-box;
+font-weight:bold;
+
+}
+
+.input-padrao:hover{
+    border-color: #212122;
+}
+.btn:hover{
+    background: #eca200;
+  
+}
+.input-padrao:focus {
+	outline: none;
+  	border: 1px solid rgb(0, 16, 70);
+}
+#mensagens-erro{
+    color:red;
+    	
+content:\0021;
+    font-size: 12px;
+}

@@ -1,0 +1,47 @@
+
+.conteudo{
+    display: grid;
+    grid-area: conteudo;
+    color:#8c8c8e;
+    margin-left: 2rem ;
+    margin-right: 2rem ;
+}
+.criptografador{
+    display:grid;
+    grid-template-rows: 10rem 10rem;
+    row-gap: 2rem;
+    
+}
+
+.caixa{
+    background:#38373c ;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 0 2px 2px 1px black ;
+
+}
+@media screen and (min-width:668px){
+    .criptografador{
+        display:flex;
+        padding-top: 5rem;
+     
+    }
+    .caixa{
+        margin-right: 2rem;
+        padding: 2rem;
+        width: 50%;
+        height: 10rem;
+    
+    }
+    .decodificador {
+        display:flex;
+    
+    }
+    .resultado{
+        margin-right: 0;
+    
+    }
+}
+
