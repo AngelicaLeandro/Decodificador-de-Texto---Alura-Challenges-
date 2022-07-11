@@ -1,7 +1,7 @@
 
 # Challenge-01 Oracle Next Education
 
-## Link: https://github.com/AngelicaLeandro/Decodificador-de-Texto---Alura-Challenges-/blob/7845bb1e0d74bf522fdb0a3557dfc33be83ffcf7/index.html
+## Link: https://angelicaleandro.github.io/Decodificador-de-Texto---Alura-Challenges-/
 ## Requisitos
 
 - Deve funcionar apenas com letras minúsculas
